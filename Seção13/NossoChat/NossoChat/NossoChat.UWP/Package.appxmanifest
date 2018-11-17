@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="91c2d51b-1bd6-45ed-8d12-234b4369c77f"
-    Publisher="CN=e04714c1-201c-49e7-ac03-5d83cf345f46"
+    Name="40aca202-0502-4f35-bd98-d5b11fbcaa07"
+    Publisher="CN=bd8ad48f-c19a-4206-aa85-63eca845b843"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>App1_Vagas.UWP</DisplayName>
-    <PublisherDisplayName>e04714c1-201c-49e7-ac03-5d83cf345f46</PublisherDisplayName>
+    <DisplayName>NossoChat.UWP</DisplayName>
+    <PublisherDisplayName>bd8ad48f-c19a-4206-aa85-63eca845b843</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="App1_Vagas.UWP.App">
+      EntryPoint="NossoChat.UWP.App">
       <uap:VisualElements
-        DisplayName="App1_Vagas.UWP"
+        DisplayName="NossoChat.UWP"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="App1_Vagas.UWP"
+        Description="NossoChat.UWP"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
           <uap:ShowNameOnTiles>

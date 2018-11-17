@@ -16,7 +16,7 @@ namespace App1_Vagas.Paginas
 		public DetelhaVaga (Vaga vaga)
 		{
 			InitializeComponent ();
-            DisplayAlert("MSG", vaga.NomeVaga, "OK");
+            BindingContext = vaga;
 		}
 	}
 }
